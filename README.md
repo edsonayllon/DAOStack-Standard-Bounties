@@ -33,6 +33,6 @@ All bounties with the DAO as the issuer are displayed in the `Open Bounties` tab
 
 ![](./images/5.png)
 
-As more bounties are issued by the DAO, Open Bounties updates. Bounties are removed as they close. 
-
 To be queried the Open Bounties List, bounty data must follow the [StandardBounties Data Schema](https://github.com/Bounties-Network/StandardBounties/blob/master/docs/standardSchemas.md), and be uploaded as a JSON file to IPFS. The bounty description field of the schema is Markdown. 
+
+As more bounties are issued by the DAO, Open Bounties updates. Bounties are removed as they close. 
