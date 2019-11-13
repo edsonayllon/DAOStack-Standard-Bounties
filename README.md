@@ -2,6 +2,12 @@
 
 The Standard Bounties scheme allows DAOs on DAOStack to perform actions on [Bounties Network](https://explorer.bounties.network). Bounties are funded projects posted to be completed by freelancers.
 
+The Standard Bounties contract has been used by organizations such as The Ethereum Foundation, Consensys, Hyperledger Besu, etc. using the interface Gitcoin. Here are the Standard Bounties contract details:
+
+- Contract address: https://etherscan.io/address/0xa7135d0a62939501b5304a04bf00d1a9a22f6623
+- Contract code: https://github.com/Bounties-Network/StandardBounties/blob/master/contracts/StandardBounties.sol
+- Contract audit: https://github.com/ConsenSys/bounties-audit-report-2019-03
+
 ![](./images/1.png)
 
 The following actions can be performed with new proposals:
@@ -16,6 +22,8 @@ The following actions can be performed with new proposals:
 - `Fulfil and accept`: Accepts a submission and releases the payout 
 - `Replace Approvers`: Changes approvers
 - `Replace Issuers`: Changes issuers
+
+The only actions the DAO calls on the Standard Bounties contract are the ones listed here. 
 
 ![](./images/2.png)
 
